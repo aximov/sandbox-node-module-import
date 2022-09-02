@@ -5,6 +5,8 @@ console.log(foo.default);
 console.log(foo.default["bar"]);
 console.log(new foo.default().bar());
 
+console.log("");
+
 const staticFoo = require("./staticFoo");
 console.log(staticFoo);
 console.log(staticFoo["bar"]);
